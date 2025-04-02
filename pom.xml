@@ -21,6 +21,7 @@
         <jackson.version>2.18.3</jackson.version>
     </properties>
     <dependencies>
+        <!-- Some dependencies I need to add -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
