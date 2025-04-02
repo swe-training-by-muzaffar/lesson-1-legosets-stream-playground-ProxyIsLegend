@@ -78,6 +78,8 @@ public class LegoSetManagerImpl implements LegoSetInterface {
     public static void main(String[] args) {
         var manager = new LegoSetManagerImpl();
 
+        // The instructions about how to modify the code.
+
         manager.printAllThemesByTag();
         System.out.println(manager.getSummaryStatisticsOfPiecesByTheme("Icons"));
         System.out.println(manager.getAvgPiecesOfIcons());
